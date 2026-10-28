@@ -75,7 +75,7 @@ export default function CartDrawer({ lines, units, total, onClose, onQty }) {
         {lines.length > 0 && (
           <div className="space-y-3 border-t-2 border-ink p-5">
             <label className="block text-sm font-semibold">
-              Tu nombre (opcional)
+              Tu nombre
               <input
                 value={name}
                 onChange={(e) => setName(e.target.value)}
